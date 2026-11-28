@@ -20,3 +20,8 @@
 | [ADR-014](014-board-and-note-size.md) | ボードと付箋の大きさを固定し、位置を整数の px で表す | Claude の提案をユーザーが承認 |
 | [ADR-015](015-share-only-committed-operations.md) | ドラッグ中と編集中の様子は共有しない | Claude の提案をユーザーが承認 |
 | [ADR-016](016-note-id-by-browser.md) | 付箋の `id` はブラウザが UUID で決める | Claude の提案をユーザーが承認 |
+| [ADR-017](017-reject-invalid-operations.md) | サーバーは決まりに合わない操作を直さずに受け付けない | Claude の提案をユーザーが承認 |
+| [ADR-018](018-coder-websocket.md) | WebSocket のライブラリに coder/websocket を使う | Claude の提案をユーザーが承認 |
+| [ADR-019](019-board-state-owned-by-one-goroutine.md) | ボードの状態は、ボードごとに1つの goroutine だけが読み書きする | Claude の提案をユーザーが承認 |
+| [ADR-020](020-snapshot-on-connect.md) | 接続した直後に、WebSocket でボードの中身をまとめて送る | Claude の提案をユーザーが承認 |
+| [ADR-021](021-show-own-operations-before-confirmation.md) | 自分の操作は、サーバーの結果を待たずに表示する | Claude の提案をユーザーが承認 |
