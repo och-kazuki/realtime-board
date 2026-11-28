@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-bar {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  padding: 0 16px;
+  border-bottom: 1px solid #d0d4da;
+  background: #ffffff;
+}
+
+.app-name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.add-note-button {
+  padding: 6px 14px;
+  border: 1px solid #b8962e;
+  border-radius: 6px;
+  background: #fff59d;
+  font: inherit;
+  cursor: pointer;
+}
+
+.add-note-button:hover {
+  background: #ffef7a;
+}
+
+/* ボードより広い画面では、ボードの外側がこの色で見える */
+.board-viewport {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  background: #c9ced6;
+}

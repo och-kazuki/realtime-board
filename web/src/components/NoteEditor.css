@@ -1,0 +1,30 @@
+.note-editor {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.note-editor-input {
+  flex: 1;
+  min-height: 0;
+  padding: 8px;
+  border: none;
+  outline: 2px solid #b8962e;
+  outline-offset: -2px;
+  background: #fffbd0;
+  color: inherit;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: none;
+}
+
+.note-editor-counter {
+  flex: none;
+  padding: 2px 8px;
+  background: #fffbd0;
+  color: #6b5d1f;
+  font-size: 12px;
+  text-align: right;
+}
